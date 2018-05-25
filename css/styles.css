@@ -110,21 +110,22 @@ body {
   grid-gap: 20px;
 
 }
-
+/*ADS STUFF*/
 #ads {
   display: flex;
   justify-content: center;
   grid-column: 1 / 4;
   padding: 20px;
-
+  border-bottom: 1px solid #e5e5e5;
 }
-
-#ads img {
-
-}
-
+/*SIDE ADDS STUFF*/
 #sideAds {
+  display: flex;
+  justify-content: center;
   grid-column: 1 / 2;
+  padding: 20px;
+  border-right: 1px solid #e5e5e5;
+
 }
 
 #stories {
