@@ -11,18 +11,6 @@ body {
 
 }
 
-.panel{
-  background-color: black;
-  color: white;
-
-}
-
-.panel img{
-  width: 100%;
-  height: 100%;
-
-}
-
 /*LINK STUFF*/
 #links {
   display: flex;
@@ -95,6 +83,17 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
+}
+
+.panel{
+  background-color: black;
+  color: white;
+
+}
+
+.panel img{
+  width: 100%;
+  height: 100%;
 
 }
 /*ADS STUFF*/
@@ -200,4 +199,54 @@ body {
   height: 300px;
   color: grey;
   padding-top: 130px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+@media screen and (max-width: 1040px) {
+  #links {
+    display: none;
+  }
+
+ .first-stories {
+   display: grid;
+   grid-template-columns: repeat(1, 1fr);
+ }
+ #first-story-title {
+   padding: 40px;
+   text-align: center;
+   background-color: #fff;
+   color: black;
+ }
+ .panel:nth-child(2){
+   display: flex;
+   flex-wrap: nowrap;
+   color: black;
+   background-color: #fff;
+ }
+ .panel:nth-child(2) img {
+   width: 50%;
+ }
+ .panel:nth-child(3){
+   display: flex;
+   flex-wrap: nowrap;
+   color: black;
+   background-color: #fff;
+ }
+ .panel:nth-child(3) img {
+   width: 50%;
+ }
+  #ads {
+    display: none;
+  }
+  #sideAds {
+    display: none;
+  }
+  #bottomAds {
+    display: none;
+  }
+  #stories {
+    grid-column: 1 / 4;
+  }
 }
