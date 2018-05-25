@@ -208,22 +208,45 @@ body {
   #links {
     display: none;
   }
-
+  #title {
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px 20px;
+    padding-bottom: 12px;
+  }
+  #title img {
+    height: 25px;
+    width: 130px;
+  }
+  #navBar {
+    display: flex;
+    flex-direction: row;
+  }
+  #navBar a {
+    padding: 5px 5px;
+    border: none;
+    font-size: 15px;
+  }
  .first-stories {
    display: grid;
    grid-template-columns: repeat(1, 1fr);
+
  }
  #first-story-title {
    padding: 40px;
    text-align: center;
    background-color: #fff;
    color: black;
+   border-bottom: 1px solid #e5e5e5;
  }
+
  .panel:nth-child(2){
    display: flex;
    flex-wrap: nowrap;
    color: black;
    background-color: #fff;
+   padding-bottom: 20px;
+   border-bottom: 1px solid #e5e5e5;
  }
  .panel:nth-child(2) img {
    width: 50%;
