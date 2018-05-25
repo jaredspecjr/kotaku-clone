@@ -134,7 +134,7 @@ body {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
-  padding: 20px;
+  padding: 40px 70px;
   grid-column: 2 / 4;
 }
 #stories img{
