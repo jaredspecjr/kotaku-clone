@@ -10,8 +10,29 @@ body {
   margin-right: -8px;
 }
 
-.grid-panel {
+.flex-panel {
+  display: flex;
   border: 1px solid black;
+  padding:  60px 20px;
+
+}
+
+.first-stories {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+
+
+}
+
+.panel{
+  border: 1px solid black;
+}
+
+.panel img{
+  width: 100%;
+  height: auto;
+
 }
 /*LINK STUFF*/
 #links {
@@ -69,9 +90,13 @@ body {
 #navBar a:hover {
   color: gray;
 }
-
+/*FIRST 3 STORIES STUFF*/
 #first3 {
   grid-column: 1 / 4;
+}
+
+#first3 {
+
 }
 
 #ads {
