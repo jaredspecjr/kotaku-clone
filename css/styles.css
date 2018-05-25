@@ -96,6 +96,13 @@ body {
   height: 100%;
 }
 
+.panel span:hover {
+  text-decoration: underline;
+}
+.story-panel h3:hover {
+  text-decoration: underline;
+}
+
 /*ADS STUFF*/
 #ads {
   display: flex;
