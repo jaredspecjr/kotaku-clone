@@ -1,3 +1,7 @@
+body {
+  background-color: #fff;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -9,7 +13,7 @@
 .grid-panel {
   border: 1px solid black;
 }
-
+/*LINK STUFF*/
 #links {
   display: flex;
   flex-direction: row;
@@ -33,13 +37,37 @@
 #links a:hover{
   color: white;
 }
-
+/*TITLE STUFF*/
 #title {
+  display: flex;
+  justify-content: center;
+  grid-column: 1 / 4;
+  padding: 30px;
+}
+
+#title img {
+  height: 55px;
+  width: 300px;
+
+}
+/*NAVBAR STUFF*/
+#navBar {
+  display: flex;
+  justify-content: center;
   grid-column: 1 / 4;
 }
 
-#navBar {
-  grid-column: 1 / 4;
+#navBar a {
+  font-size: 18px;
+  padding: 5px 11px;
+  color: #aaa;
+  text-decoration: none;
+  border-left: 1px solid #e5e5e5;
+  border-right: 1px solid #e5e5e5;
+}
+
+#navBar a:hover {
+  color: gray;
 }
 
 #first3 {
