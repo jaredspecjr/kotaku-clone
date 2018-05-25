@@ -235,9 +235,15 @@ body {
  #first-story-title {
    padding: 40px;
    text-align: center;
+   font-size: 30px;
+   font-weight: bold;
+   font-style: italic;
    background-color: #fff;
    color: black;
    border-bottom: 1px solid #e5e5e5;
+ }
+ .first-title:hover {
+   text-decoration: underline;
  }
 
  .panel:nth-child(2){
@@ -250,6 +256,7 @@ body {
  }
  .panel:nth-child(2) img {
    width: 50%;
+   margin-right: 20px;
  }
  .panel:nth-child(3){
    display: flex;
@@ -259,7 +266,18 @@ body {
  }
  .panel:nth-child(3) img {
    width: 50%;
+   margin-right: 20px;
  }
+
+ .titles {
+   font-size: 20px;
+   font-style: italic;
+   font-weight: bold;
+ }
+ .titles:hover {
+   text-decoration: underline;
+ }
+
   #ads {
     display: none;
   }
