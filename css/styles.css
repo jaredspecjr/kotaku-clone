@@ -7,3 +7,43 @@
 .grid-panel {
   border: 1px solid black;
 }
+
+#links {
+  grid-column: 1 / 4;
+}
+
+#title {
+  grid-column: 1 / 4;
+}
+
+#navBar {
+  grid-column: 1 / 4;
+}
+
+#first3 {
+  grid-column: 1 / 4;
+}
+
+#ads {
+  grid-column: 1 / 4;
+}
+
+#sideAds {
+  grid-column: 1 / 2;
+}
+
+#stories {
+  grid-column: 2 / 4;
+}
+
+#bottomAds {
+  grid-column: 1 / 4;
+}
+
+#bottom {
+  grid-column: 1 / 4;
+}
+
+#footer {
+  grid-column: 1 / 4;
+}
