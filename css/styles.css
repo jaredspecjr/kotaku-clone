@@ -125,11 +125,17 @@ body {
   grid-column: 1 / 2;
   padding: 20px;
   border-right: 1px solid #e5e5e5;
-
 }
-
+/*STORIES STUFF*/
 #stories {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
   grid-column: 2 / 4;
+}
+#stories img{
+  width: 100%;
+  height: auto;
 }
 
 #bottomAds {
