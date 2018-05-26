@@ -295,6 +295,7 @@ body {
     display: none;
   }
   #stories {
+    padding: 30px 20px;
     grid-column: 1 / 4;
   }
 }
