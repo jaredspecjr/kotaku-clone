@@ -22,6 +22,7 @@ I recommend the latter as you will be able to see how the site is responsive.
 
 ## Setup and Installation requirements
 
+
 ### To clone project to desktop:
 * Copy path from Github,
 * Change directories to Desktop,
